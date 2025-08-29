@@ -10,33 +10,33 @@
 
 <body>
 
-    <header>
-        <h1>Мой уютный блог о вёрстке</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-project">О проекте</a></li>
-                <li><a href="#about-me">Обо мне</a></li>
-                <li><a href="#blog">Блог</a></li>
-                <li><a href="#resources">Полезные ресурсы</a></li>
+    <header class="header">
+        <h1 class="header__title">Мой уютный блог о вёрстке</h1>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#about-project">О проекте</a></li>
+                <li class="header__item"><a class="header__link" href="#about-me">Обо мне</a></li>
+                <li class="header__item"><a class="header__link" href="#blog">Блог</a></li>
+                <li class="header__item"><a class="header__link" href="#resources">Полезные ресурсы</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="welcome">
-            <h2>Добро пожаловать в мой уголок фронтенда!</h2>
-            <p>Здесь я делюсь своим путём изучения вёрстки, JavaScript и полезными находками для начинающих и не только.</p>
+        <section class="welcome" id="welcome">
+            <h2 class="welcome__title">Добро пожаловать в мой уголок фронтенда!</h2>
+            <p class="welcome__text"> Здесь я делюсь своим путём изучения вёрстки, JavaScript и полезными находками для начинающих и не только.</p>
         </section>
-        <section id="blog-preview">
-            <h3>Последние посты</h3>
-            <ul>
-                <li><a href="#post1">Статья 1: Основы HTML</a></li>
-                <li><a href="#post2">Статья 2: CSS для начинающих</a></li>
+        <section class="blog-preview" id="blog-preview">
+            <h3 class="blog-preview__title">Последние посты</h3>
+            <ul class="blog-preview__list">
+                <li class="blog-preview__item"><a href="#post1">Статья 1: Основы HTML</a></li>
+                <li class="blog-preview__item"><a href="#post2">Статья 2: CSS для начинающих</a></li>
             </ul>
         </section>
-        <section id="random-link">
-            <h3>Интересное</h3>
+        <section class="random-link" id="random-link">
+            <h3 class="random-link__title">Интересное</h3>
             <div class="random-link-box">
-                <p>Сегодня я рекомендую:</p>
+                <p class="random-link__text">Сегодня я рекомендую:</p>
                 <a href="#" target="_blank" id="randomLink">Загрузить ресурс →</a>
             </div>
         </section>
@@ -44,7 +44,6 @@
             <p>&copy; 2024 Мой блог. Все права защищены.</p>
         </footer>
     </main>
-
 </body>
 
 </html>
